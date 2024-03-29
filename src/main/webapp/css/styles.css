@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+}
+
+img {
+    max-width: 62%;
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Специфичный стиль картинки для stageThree.jsp */
+.img-stage-three {
+    max-width: 52%;
+}
+
+/* Специфичный стиль картинки для lost.jsp */
+.img-lost {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.win-container .img-win {
+    max-width: 100%;
+    width: 100%;
+}
+
+.message {
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для страницы lost.jsp */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 36px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.center-image {
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+}
